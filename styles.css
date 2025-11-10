@@ -1,0 +1,214 @@
+/* Professional Portfolio Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    padding-top: 76px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #1a2a6c 0%, #2c3e50 100%);
+    color: white;
+    padding: 0;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.mission-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Profile Header Styles */
+.profile-header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.separator {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+/* OPCW/Activism Hero */
+.opcw-hero {
+    background: linear-gradient(135deg, #1a2a6c 0%, #2980b9 100%);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 76px;
+}
+
+/* Navigation */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3498db !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #3498db !important;
+    font-weight: 600;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(45deg, #1a2a6c, #2980b9);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: linear-gradient(45deg, #2980b9, #1a2a6c);
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Publication Items */
+.publication-item {
+    border-left: 4px solid #1a2a6c;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+/* Badges */
+.badge {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    border-radius: 15px;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+    color: #000;
+}
+
+.bg-primary {
+    background-color: #1a2a6c !important;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .opcw-hero {
+        padding: 60px 0;
+    }
+
+    .mission-card {
+        margin: 20px 0;
+    }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .profile-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Stats Section */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.text-primary {
+    color: #1a2a6c !important;
+}
+
+/* List Styles */
+.list-unstyled li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list-unstyled li:last-child {
+    border-bottom: none;
+}
+
+/* Form Elements */
+.form-check {
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+/* Links */
+a {
+    color: #1a2a6c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+}
